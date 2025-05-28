@@ -1,0 +1,107 @@
+
+body {
+background-color: #f0f4f8;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+#contenedor {
+width: 90%;
+margin: 0 auto;
+background-color: white;
+border: 2px solid #ccc;
+border-radius: 10px;
+}
+
+
+#cabecera {
+background-color: #004080;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+#imglogo {
+width: 80px;
+float: left;
+margin-right: 20px;
+}
+
+
+#alinear {
+display: flex;
+flex-direction: row;
+padding: 20px;
+}
+
+#ssi {
+width: 20%;
+}
+
+.izquierdo {
+background-color: #e6f0ff;
+padding: 15px;
+border-radius: 8px;
+text-align: left;
+}
+
+.izquierdo a {
+display: block;
+color: #003366;
+text-decoration: none;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.izquierdo a:hover {
+color: #007acc;
+}
+
+
+#cuerpo {
+width: 80%;
+padding: 0 20px;
+}
+
+
+#slider {
+margin-top: 20px;
+}
+
+.img {
+width: 100%;
+max-width: 400px;
+border-radius: 8px;
+}
+
+
+#piediv {
+background-color: #004080;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 20px;
+border-radius: 0 0 10px 10px;
+}
+.class1{
+width: 100px;
+height: 100px;
+display: inline;
+}
+.class2{
+	width:100px;
+	height:100px;
+	display; inline;
+}
+table, th, td {  /* estilo a la tabla creada en la pagina galeria.html*/
+  border: 7px solid blue; /*Bordes  con un grosor de 7px, con un color solido azul*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.class1{
+		width:300px; 
+		height:200px;
+}
